@@ -1,7 +1,7 @@
-# Quiz-App
+# Quizy
 A simple Quiz App built with Vanilla JavaScript to practice core concepts like DOM manipulation, event handling, data fetching, and dynamic rendering.
 
-### 🌐 Visit the website: [Quizy Live Demo](https://quizy-mz.netlify.app/)
+### 🌐 Visit the website: [Quizy](https://quizy-mz.vercel.app/)
 
 ## 📸 Preview
 
@@ -15,6 +15,38 @@ A simple Quiz App built with Vanilla JavaScript to practice core concepts like D
 * Score tracking and result display.
 * Responsive UI with modal dialogs for quitting or restarting.
 * Animated transitions for better user experience.
+
+## 💡Future Enhancements
+
+- Add a **progress summary** after each quiz  
+- Introduce **category-based leaderboards**  
+- Allow users to **review incorrect answers** 
+
+## 📸 Flowchart
+
+![Quiz App Flowchart](assets/imgs/app%20logic/Flowchart.jpeg)
+
+## 📁 Folder Structure
+
+```bash
+quizy/
+│
+├── assets/
+│   ├── css/
+│   │   └── all.css
+│   │
+│   ├── imgs/
+│   │   └── main-page.png
+│   │
+│   └── js/
+│       ├── Question.js   # Handles question data and logic
+│       ├── Quiz.js       # Manages quiz flow (fetching, score, next question, etc.)
+│       ├── UI.js         # Controls DOM manipulation and screen transitions
+│       └── QuizApp.js    # Bootstraps and connects all modules
+│
+├── index.html
+└── README.md
+```
 
 ## Technologies Used
 
